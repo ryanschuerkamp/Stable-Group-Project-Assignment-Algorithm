@@ -34,3 +34,12 @@ To generate new datasets specify the number of students you want for each datase
 python data_generator.py 47 432 1467
 ```
 The above command will produce 3 datasets called 47students.txt, 432students.txt, and 1467students.txt.
+
+### Assign Students to Projects
+To run the algorithm to assign students to projects run:
+```bash
+python assign_students.py 125students.txt
+```
+The above command will assign the 125 students in the file to projects and save the results of the project assignments to a file called 32project_assignments.txt.
+
+125students.txt can be replaced by any file containing students. The resulting file will be named based on the number of projects as displayed above by 32project_assignments.txt.
