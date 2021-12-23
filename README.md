@@ -9,4 +9,28 @@ This code and the report were created as part of a group project for CSE 374 Alg
 ## How to Run
 
 ### Set Up
-To download the repository and install dependencies, run the following commands:
+To clone the repository run the following command:
+```bash
+git clone https://github.com/ryanschuerkamp/Stable-Group-Project-Assignment-Algorithm.git
+```
+
+To switch into the repository run:
+```bash
+cd Stable-Group-Project-Assignment-Algorithm/
+```
+In order to run the code and install dependencies, you need python and pip installed. 
+
+### Generate Data
+To install Faker dependency which is required to generate data run:
+```bash
+pip install Faker
+```
+To generate the data contained used in our report run and in the data folder run:
+```bash
+python data_generator.py
+```
+To generate new datasets specify the number of students you want for each dataset separated by spaces:
+```bash
+python data_generator.py 47 432 1467
+```
+The above command will produce 3 datasets called 47students.txt, 432students.txt, and 1467students.txt.
