@@ -25,7 +25,7 @@ To install Faker dependency which is required to generate data run:
 ```bash
 pip install Faker
 ```
-To generate the data used in our report and contained in the data folder run:
+To generate data sets containing the same number of students as in our report and contained in the data folder run:
 ```bash
 python data_generator.py
 ```
