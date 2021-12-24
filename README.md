@@ -4,7 +4,7 @@ An algorithm to assign students to projects based on their preferences.
 
 A description of the problem and algorithm, pseudocode, example cases, time complexity analysis, evaluation, and discussion of the algorithm can be found in Report.pdf. The code in this repository implements the algorithm, generates test data, and evaluates and compares the algorithm to an algorithm which randomly assigns students to projects. 
 
-This code and the report were created as part of a group project for CSE 374 Algorithms taught at Miami University. I wrote all of the code and almost all of the report by myself other than sections 2.3, and I wrote the pseudocode but didn't type it in LaTex. My group mates typed the pseudocode in LaTex, proofread the report, and created slides and a video presentation. 
+This code and the report were created as part of a group project for CSE 374 Algorithms taught at Miami University. I wrote all of the code and all of the report by myself other than sections 2.3, and I wrote the pseudocode but didn't type it in LaTex. My teammates typed the pseudocode in LaTex, proofread the report, and created slides and a video presentation. 
 
 ## How to Run
 
@@ -43,3 +43,17 @@ python assign_students.py 125students.txt
 The above command will assign the 125 students in the file to projects and save the results of the project assignments to a file called 32project_assignments.txt.
 
 125students.txt can be replaced by any file containing students. The resulting file will be named based on the number of projects as displayed above by 32project_assignments.txt.
+
+### Run Analysis
+To install NumPy which is required for the analysis script run:
+```bash
+pip install numpy
+```
+To install Matplotlib which is also required fun:
+```bash
+pip install matplotlib
+```
+To generate the figures runtimes.png and sum_preferences.png run:
+```bash
+python analysis_algorithm.py
+```
