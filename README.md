@@ -4,7 +4,7 @@ An algorithm to assign students to projects based on their preferences.
 
 A description of the problem and algorithm, pseudocode, example cases, time complexity analysis, evaluation, and discussion of the algorithm are in Report.pdf. The code in this repository generates test data, implements the algorithm, and evaluates and compares the algorithm to an algorithm that randomly assigns students to projects.
 
-This code and the report are part of a group project for CSE 374 Algorithms taught at Miami University. I wrote all of the code and the report by myself other than section 2.3, and I wrote the pseudocode but didn't type it in LaTex. My teammates typed the pseudocode in LaTex, proofread the report, and created slides and a video presentation.
+This code and the report are part of a group project for CSE 374 Algorithms taught at Miami University. I wrote all of the code and the report by myself other than section 2.3, and I wrote the pseudocode but didn't type it in LaTex. My teammates wrote section 2.3, typed the pseudocode in LaTex, proofread the report, and created slides and a video presentation.
 
 ## Project Organization
 The data folder contains sample datasets of the same size used in Report.pdf. The results folder contains sample results based on the datasets in the data folder.
