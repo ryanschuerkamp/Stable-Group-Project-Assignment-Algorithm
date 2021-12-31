@@ -13,7 +13,7 @@ data_generator.py generates datasets with students and their preferences like th
 
 assign_students.py assigns students to projects based on their preferences using the algorithm and a random algorithm and prints the sum of preferences for both algorithms. It also saves the project assignments by the algorithm to a file named numberOfProjectsproject_assignments.txt (i.e. 32project_assignments.txt).
 
-analysis_algorithm.py creates a figure of the average run time of the algorithm over 10 runs for different numbers of students to display how the run time grows as the input size grows. It also creates a figure to compare the sum of preferences between the proposed and random algorithms.
+analysis_algorithm.py creates a figure (runtimes.png) of the average run time of the algorithm over 10 runs for different numbers of students to display how the run time grows as the input size grows. It also creates a figure (sum_preferences.png) to compare the sum of preferences between the proposed and random algorithms.
 
 ## How to Run
 
