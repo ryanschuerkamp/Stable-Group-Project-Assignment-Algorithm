@@ -2,18 +2,18 @@
 
 An algorithm to assign students to projects based on their preferences.
 
-A description of the problem and algorithm, pseudocode, example cases, time complexity analysis, evaluation, and discussion of the algorithm can be found in Report.pdf. The code in this repository generates test data, implements the algorithm, and evaluates and compares the algorithm to an algorithm that randomly assigns students to projects. 
+A description of the problem and algorithm, pseudocode, example cases, time complexity analysis, evaluation, and discussion of the algorithm are in Report.pdf. The code in this repository generates test data, implements the algorithm, and evaluates and compares the algorithm to an algorithm that randomly assigns students to projects.
 
-This code and the report were created as part of a group project for CSE 374 Algorithms taught at Miami University. I wrote all of the code and all of the report by myself other than section 2.3, and I wrote the pseudocode but didn't type it in LaTex. My teammates typed the pseudocode in LaTex, proofread the report, and created slides and a video presentation. 
+This code and the report are part of a group project for CSE 374 Algorithms taught at Miami University. I wrote all of the code and the report by myself other than section 2.3, and I wrote the pseudocode but didn't type it in LaTex. My teammates typed the pseudocode in LaTex, proofread the report, and created slides and a video presentation.
 
 ## Project Organization
-The data folder contains sample datasets of the same sized used in Report.pdf. The results folder contains sample results based off of the datasets in the data folder. 
+The data folder contains sample datasets of the same size used in Report.pdf. The results folder contains sample results based on the datasets in the data folder.
 
 data_generator.py generates datasets with students and their preferences like the data in the data folder.
 
 assign_students.py assigns students to projects based on their preferences using the algorithm and a random algorithm and prints the sum of preferences for both algorithms. It also saves the project assignments by the algorithm to a file named numberOfProjectsproject_assignments.txt (i.e. 32project_assignments.txt).
 
-analysis_algorithm.py creates a figure of the average run time of the algorithm over 10 runs for different numbers of students to display how the run time grows as the input size grows. It also creates a figure to compare the sum of preferences between the proposed and random algorithm. 
+analysis_algorithm.py creates a figure of the average run time of the algorithm over 10 runs for different numbers of students to display how the run time grows as the input size grows. It also creates a figure to compare the sum of preferences between the proposed and random algorithms.
 
 ## How to Run
 
