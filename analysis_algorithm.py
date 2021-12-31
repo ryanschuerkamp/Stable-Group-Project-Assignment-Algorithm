@@ -6,7 +6,7 @@ import assign_students
 
 def get_sum_preferences() -> dict:
     """
-    Return the sum of preferences for the proposed and random algorithm on all data sets produced
+    Return the sum of preferences for the proposed and random algorithm on all datasets produced
 
     Parameters
     ----------

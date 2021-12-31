@@ -82,7 +82,7 @@ if __name__ == "__main__":
             class_sizes = [31, 62, 125, 250, 500, 1000]
     except:
         # Assign class sizes to the dataset sizes considered in our report if 
-        # error invalid command-line arguments are provided or if none are
+        # error or invalid command-line arguments are provided
         class_sizes = [31, 62, 125, 250, 500, 1000]
     # Create file(s) containing specified number of students
     for num_students in class_sizes:
