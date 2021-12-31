@@ -35,7 +35,7 @@ def load_students(path_to_file: str) -> dict:
     for line in lines:
         # Find beginning ot student's name based on first '
         name_start = line.find("'") + 1
-        # Find end ot student's name based on second '
+        # Find end of student's name based on second '
         name_end = line.find("'", name_start)
         # Extract student's name from the line
         name = line[name_start:name_end]
@@ -171,7 +171,7 @@ def assign_students(students: dict, projects: dict) -> tuple:
     sum_preferences = len(students)
     # Sort projects by the number of students assigned to them in descending order
     sorted_projects = sorted(projects, key=lambda k: len(projects[k]), reverse=True)
-    # Call helper function to assign students to projects, allowing at most 4 students per projects in range
+    # Call helper function to assign students to projects, allowing at most 4 students per project in range
     projects, sum_preferences = assign_students_projects(students, projects, sorted_projects, 0, 
                                     len(projects) - num_projects_of_three - 1, 4, sum_preferences)
     # Sort projects by the number of students assigned to them in descending order
@@ -337,14 +337,14 @@ def write_project_assignments(projects: dict, filename: str) -> None:
     -------
     None
     """
-    # Get list of students
+    # Get list of projects
     project_list = list(projects)
     # Open file in write mode
     with open(filename, 'w') as output:
-        # Write all students other than the last one to the file on a new line
+        # Write all projects other than the last one to the file on a new line
         for index in range(len(project_list) - 1):
             print(project_list[index], ",".join(projects[project_list[index]]), file=output)
-        # Write last student to file without end character to prevent blank last line
+        # Write last project to file without end character to prevent blank last line
         print(project_list[-1], ",".join(projects[project_list[-1]]), file=output, end='')
             
 
